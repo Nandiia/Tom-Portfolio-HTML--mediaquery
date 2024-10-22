@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+.container-saaral {
+  width: 100%;
+  height: fit-content;
+  background-color: #f9fafb;
+  margin: auto;
+}
+.content-box {
+  margin-top: 64px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 64px;
+}
+.content-box .button {
+  width: 105px;
+  height: 28px;
+  background-color: #e6e7eb;
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.profile-img-2 {
+  display: flex;
+  position: relative;
+  margin-top: 54px;
+  width: 320px;
+  height: 360px;
+  background-color: #e6e7eb;
+  margin: auto;
+}
+/* .shadow {
+  width: 320px;
+  height: 360px;
+  background-color: #e6e7eb;
+  margin: auto;
+} */
+
+.profile-img-2 img {
+  width: 280px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+.info {
+  margin-top: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Inter", sans-serif;
+}
+.info .info-text-2 {
+  margin-top: 16px;
+}
+
+.info .info-title-2 h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.info .info-text-2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5563;
+}
+
+.info-text-2 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.info-text-2 ul li {
+  margin-left: 16px;
+}
+
+/* @media only screen and (min-width: 1200px) {
+  .container-saaral {
+    width: 1140px;
+    border: 1px solid green;
+  }
+} */
+
+@media only screen and (min-width: 1200px) {
+  .container-saaral {
+    width: 1440px;
+  }
+  /* .button {
+    margin: auto;
+  } */
+  .content-box {
+    margin: 0 0;
+    padding: 96px 80px;
+    /* border: 1px solid green; */
+  }
+  .content-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid blue; */
+    gap: 192px;
+    margin-top: 48px;
+  }
+  /* .content-box-2 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+  } */
+  .profile-img-2 {
+    width: 400px;
+    height: 480px;
+    position: relative;
+    /* border: 1px solid blue; */
+  }
+  .profile-img-2 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+  }
+
+  .info {
+    width: 584px;
+    margin-top: 0;
+
+    padding-right: 32px;
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid red; */
+  }
+}
